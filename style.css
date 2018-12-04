@@ -76,7 +76,6 @@ aside {
 	width: 200px;
 	float: right;
 	margin: 0 auto;
-	max-height: 355px;
 	font-family: monospace;
 	font-size: 20px;
 	padding: 10px;
@@ -91,6 +90,7 @@ article {
 #profilepic {
 	float: left;
 	border-radius: 25px;
+	margin-right: 20px;
 }
 
 .logos {
