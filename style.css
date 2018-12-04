@@ -1,0 +1,134 @@
+body {
+  font-family: Book Antiqua;
+  line-height: 1.4rem;
+  width: 1000px;
+}
+
+table, tr, td {
+    border: 1px solid black;
+    width:90%; 
+    margin-left:5%; 
+    margin-right:5%;
+  }
+
+table {
+	table-layout: fixed;
+}
+
+h1 {
+	color: darkgreen;
+	font-family: "sans-serif";
+	font-size: 80px;
+}
+h2 {
+	color: seagreen;
+	font-family: "Monaco";
+	text-align: center;
+	text-decoration: underline;
+	font-size: 40px;
+}
+
+h3 {
+	color: limegreen;
+	text-decoration: underline;
+	font-family: "Monaco";
+	text-align: center;
+}
+
+header {
+	background-image: url("green_cup.png");
+	text-align: center;
+	padding: 24px;
+	margin-bottom: 36px;
+	border: 3px groove black;
+}
+
+section {
+	background-image: url("images/leaves.png");
+	margin-bottom: 36px;
+	padding: 24px;
+	border: 1px ridge black;
+}
+
+p {
+	font-family: "Raleway", "monospaced", "serif";
+}
+
+img {
+	border-radius: 1px;
+}
+
+footer {
+	max-width: 1000px;
+	clear: both;
+	}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 100px;
+	font-size: 25px;
+}
+
+aside {
+	border-style: double;
+	border-color: black;
+	box-sizing: border-box;
+	width: 200px;
+	float: right;
+	margin: 0 auto;
+	max-height: 355px;
+	font-family: monospace;
+	font-size: 20px;
+	padding: 10px;
+	background-image: radial-gradient(lightgreen, mediumspringgreen, white);
+}
+
+article {
+	width: 100%;
+	max-width: 1000px;
+}
+
+#profilepic {
+	float: left;
+	border-radius: 25px;
+}
+
+.logos {
+	display: flex;
+	justify-content: space-between;
+}
+
+.education {
+	display: flex;
+	flex-direction: column;
+}
+	
+
+.backtotop {
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+}
+
+.box {
+	display: flex;
+	flex-direction: column;
+	float: left;
+	max-width: 700px;
+}
+
+.content {
+	display: flex;
+	flex-direction: row;
+}
+
+.picnwords {
+	display: flex;
+	flex-direction: row;
+}
+
+.sidebar {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
