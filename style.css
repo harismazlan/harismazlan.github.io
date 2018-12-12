@@ -29,10 +29,10 @@ h2 {
 }
 
 h3 {
-	color: limegreen;
-	text-decoration: underline;
+	color: black;
 	font-family: "Monaco";
 	text-align: center;
+	line-height: 1.4rem;
 }
 
 header {
@@ -76,6 +76,7 @@ aside {
 	width: 200px;
 	float: right;
 	margin: 0 auto;
+	max-height: 400px;
 	font-family: monospace;
 	font-size: 20px;
 	padding: 10px;

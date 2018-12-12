@@ -80,8 +80,28 @@
 				</section>
 
 					<aside>
-					<h3> Fun Fact Of The Day! </h3>
-					Banging your head against a wall for one hour burns 150 calories.
+
+					<h3> Fun Facts About Programming! </h3>
+
+						<script>
+							const quotes = [
+								"Banging your head against a wall for one hour burns 150 calories.",
+								"Programmers have a tendency to report their problems incompletely",
+								"Developers seek other forms of help before talking to coworkers (Stackflow)",
+								"Developers find beatable and unbeatable barriers",
+								"Programmers spend approximately 30% of the time surfing the source code",
+								"Remote programmer productivity is lower than the productivity of local programmers (controversial!)",
+								"The software maintenance consumes more than 50% of the effort",
+								"The software maintenance consumes between 40% and 90% of costs",
+								"Peer code review can discover up to 60% of bugs",
+							];
+
+							const random = Math.random();
+							const randomIndex = Math.floor(random * quotes.length);
+							document.write(`<p class="random-fact">${quotes[randomIndex]}</p>`)
+
+						</script>
+
 					</aside>
 
 				</div>
